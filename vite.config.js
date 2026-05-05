@@ -7,8 +7,9 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+
   build: {
-    rolluoOption: {
+    rollupOption: {
         input: {
             main: resolve(__dirname, 'index.html'),
             prueba: resolve(__dirname, 'prueba.html')
